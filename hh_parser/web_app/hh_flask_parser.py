@@ -1,4 +1,3 @@
-
 import multiprocessing as ml
 from parser_app import main as pr
 from web_app import create_app
