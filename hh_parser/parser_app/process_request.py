@@ -8,11 +8,11 @@ import requests as req
 
 from web_app.models import Request
 
-import parser_app.hhrequest as hr
+import hhrequest as hr
 
-import parser_app.hhparser_description as hp
-import parser_app.hhparser_key_skills as hk
-import parser_app.hhparser_salary as hs
+import hhparser_description as hp
+import hhparser_key_skills as hk
+import hhparser_salary as hs
 
 
 def read_requests(db_session):
