@@ -10,13 +10,13 @@ import sys
 import os
 sys.path.append(os.path.join(os.getcwd(), '..'))
 
-from web_app.models import Request
+from hh_parser.web_app.models import Request
 
-import parser_app.hhrequest as hr
+import hh_parser as hr
 
-import parser_app.hhparser_description as hp
-import parser_app.hhparser_key_skills as hk
-import parser_app.hhparser_salary as hs
+import hh_parser as hp
+import hh_parser as hk
+import hh_parser as hs
 
 
 def read_requests(db_session):

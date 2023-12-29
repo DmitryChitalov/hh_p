@@ -8,7 +8,7 @@ from datetime import datetime
 from sqlalchemy import Column, Integer, String, DateTime, ForeignKey
 from sqlalchemy.orm import relationship
 
-from web_app.database import Base
+from hh_parser.parser_app.database import Base
 
 
 class User(Base):
