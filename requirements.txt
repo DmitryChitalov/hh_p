@@ -1,0 +1,4 @@
+flask
+SQLAlchemy
+requests
+flask_table
