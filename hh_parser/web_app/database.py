@@ -4,7 +4,7 @@ from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 
-from web_app import app
+from hh_parser.web_app import app
 
 config = cfg.ConfigParser()
 config.read("../web_app/hh_config.ini")

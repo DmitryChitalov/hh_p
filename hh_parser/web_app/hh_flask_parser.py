@@ -1,6 +1,6 @@
 import multiprocessing as ml
-from ..parser_app import main as pr
-from ..web_app import create_app
+from hh_parser.parser_app import main as pr
+from hh_parser.web_app import create_app
 
 if __name__ == "__main__":
     # Создать приложение Flask
