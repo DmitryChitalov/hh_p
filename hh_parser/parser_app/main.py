@@ -1,8 +1,12 @@
 import configparser as cfg
 import time
+
+
 import sys
-from hh_parser.parser_app.process_request import read_requests, process_request
-from hh_parser.parser_app.database import db_session
+import os
+sys.path.append(os.path.join(os.getcwd(), '..'))
+from parser_app.process_request import read_requests, process_request
+from parser_app.database import db_session
 
 
 def main():
