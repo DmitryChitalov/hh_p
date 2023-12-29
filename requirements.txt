@@ -1,4 +1,3 @@
-requests
 flask_table
 alembic==1.4.3
 appdirs==1.4.4
