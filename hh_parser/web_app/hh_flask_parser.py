@@ -1,3 +1,7 @@
+import sys
+import os
+sys.path.append(os.path.join(os.getcwd(), '..'))
+
 import multiprocessing as ml
 from hh_parser.parser_app import main as pr
 from hh_parser.web_app import create_app
